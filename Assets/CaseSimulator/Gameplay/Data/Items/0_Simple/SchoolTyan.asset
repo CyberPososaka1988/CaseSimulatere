@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Emily
   _cost: 100
-  _itemSprite: {fileID: 21300000, guid: 071f4cc3a63da2e4ab83c71f9762ca8a, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 5032a1581b0b11d41b8c206ccc8a1228, type: 3}
   _rarity: {fileID: 11400000, guid: b673882f6af81b14d9bb45be737600f3, type: 2}

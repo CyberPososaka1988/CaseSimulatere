@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Steve
   _cost: 50
-  _itemSprite: {fileID: 21300000, guid: 077a9c4f94af3dd448e6ef0cdb7d6b3d, type: 3}
+  _itemSprite: {fileID: 21300000, guid: d075d3b8b9398904b97fa8375544b029, type: 3}
   _rarity: {fileID: 11400000, guid: b673882f6af81b14d9bb45be737600f3, type: 2}
