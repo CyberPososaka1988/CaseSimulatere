@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace CaseSimulator.Gameplay.SpinSystem
 {
-    public class ItemSpawner : MonoBehaviour
+    public class ItemSpawner : Sounds
     {
         [SerializeField] private CaseInfo _case;
         [SerializeField] private RectTransform _spinPanel;

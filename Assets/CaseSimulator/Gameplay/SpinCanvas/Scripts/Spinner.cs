@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace CaseSimulator.Gameplay.SpinSystem
 {
-    public class Spinner : MonoBehaviour
+    public class Spinner : Sounds
     {
         public static Action<CaseInfo> OnCaseSpinned;
 
@@ -28,12 +28,14 @@ namespace CaseSimulator.Gameplay.SpinSystem
         {
             Vector2 newPos = new Vector3(UnityEngine.Random.Range(-_spawnSpread, 0), _spinPanel.position.y);
             _spinPanel.anchoredPosition = newPos;
+            PlaySound(sounds[1]);
             _spinButton.gameObject.SetActive(true);
             _backButton.gameObject.SetActive(true);
         }
 
-        public void StartSpin()
+        public void StartSpin() /// начать вращение
         {
+            PlaySound(sounds[0]);
             Bank.RemoveMoney(_spawner.Case.Cost);
             _isSpin = true;
             _spinSpeed = _spinMaxSpeed;

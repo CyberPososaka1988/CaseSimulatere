@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace CaseSimulator.Gameplay.ClickerSystem
 {
-    public class Clicker : MonoBehaviour
+    public class Clicker : Sounds
     {
         [SerializeField] private string _animatorBoolName = "OnClick";
         [SerializeField] private int _multiplier;
@@ -19,6 +19,7 @@ namespace CaseSimulator.Gameplay.ClickerSystem
         {
             _animator.SetBool(_animatorBoolName, true);
             Bank.AddMoney(_multiplier);
+            PlaySound(sounds[0]);
         }
 
         public void StopClickAnim()

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace CaseSimulator.Gameplay.InventorySystem
 {
-    public class ItemPanel : MonoBehaviour
+    public class ItemPanel : Sounds
     {
         [SerializeField] private Initializer _initializer;
         [SerializeField] private Interactor _interactor;
@@ -31,11 +31,14 @@ namespace CaseSimulator.Gameplay.InventorySystem
             _costText.text = $"{itemInfo.Cost}";
             _panel.SetActive(true);
             _item.SetItem(itemInfo);
+
+            PlaySound(sounds[1]);
         }
 
         public void Hide() 
         {
             _panel.SetActive(false);
+            PlaySound(sounds[2]);
         }
 
         public void Sell()
@@ -44,6 +47,8 @@ namespace CaseSimulator.Gameplay.InventorySystem
             _panel.SetActive(false);
             _interactor.RemoveItem(_item.ItemInfo);
             _initializer.Initialize();
+
+            PlaySound(sounds[0]);
         }
     }
 }
