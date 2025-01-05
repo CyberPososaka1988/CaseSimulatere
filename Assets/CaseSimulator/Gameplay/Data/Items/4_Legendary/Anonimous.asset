@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Anonimous
   m_EditorClassIdentifier: 
-  _itemName: Anonimous
+  _itemName: "\u0411\u043E\u0441\u0441 \u043D\u0430 \u043A\u043E\u0440\u0430\u0431\u043B\u0435"
   _cost: 2200
-  _itemSprite: {fileID: 21300000, guid: 3b160d8ff8c2dea4d95a819e55a4e32d, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 7e4d01df5d2a42b408f76aae6f962a20, type: 3}
   _rarity: {fileID: 11400000, guid: 981a863b90174994aa3016c043e63da3, type: 2}

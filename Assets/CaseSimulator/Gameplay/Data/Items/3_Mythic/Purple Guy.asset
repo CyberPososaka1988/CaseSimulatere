@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Purple Guy
   m_EditorClassIdentifier: 
-  _itemName: Purple Guy
+  _itemName: "\u041B\u0435\u043F\u0440\u0438\u043A\u043E\u043D"
   _cost: 1200
-  _itemSprite: {fileID: 21300000, guid: 4db4dc1f063e906468a8b858bfa0bc61, type: 3}
+  _itemSprite: {fileID: 21300000, guid: cc9cdc1416395a942853914e3656dd4b, type: 3}
   _rarity: {fileID: 11400000, guid: 9c65e679c8a2a6d498bd30347ca41805, type: 2}

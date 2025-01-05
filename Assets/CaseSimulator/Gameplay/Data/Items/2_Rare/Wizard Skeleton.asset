@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Wizard Skeleton
   m_EditorClassIdentifier: 
-  _itemName: Wizard Skeleton
+  _itemName: "\u0425\u0437 \u0447\u0435"
   _cost: 650
-  _itemSprite: {fileID: 21300000, guid: 8b0cb5df6e6cfe14fa01c1d7838ac3d3, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 2112cf646d3bbb54f8a0ffe2be382479, type: 3}
   _rarity: {fileID: 11400000, guid: dda440497de392546abc656a8f0ba427, type: 2}

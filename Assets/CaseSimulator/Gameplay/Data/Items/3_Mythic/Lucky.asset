@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Lucky
   m_EditorClassIdentifier: 
-  _itemName: Lucky
+  _itemName: "\u043E\u0433\u043D\u0435\u043D\u044B\u0439 \u0433\u043E\u0440\u043E\u0445\u043E\u0441\u0442\u0440\u0435\u043B"
   _cost: 1100
-  _itemSprite: {fileID: 21300000, guid: 8a34af6f6ab09cd4896a3f09ed9d2c4a, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 3aeef6db31c1e504687530e534d5ebc4, type: 3}
   _rarity: {fileID: 11400000, guid: 9c65e679c8a2a6d498bd30347ca41805, type: 2}

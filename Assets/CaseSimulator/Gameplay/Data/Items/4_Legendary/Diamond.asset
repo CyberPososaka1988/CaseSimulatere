@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Diamond
   m_EditorClassIdentifier: 
-  _itemName: Diamond
+  _itemName: "\u0427\u0435\u043C\u043F\u0438\u043E\u043D"
   _cost: 1700
-  _itemSprite: {fileID: 21300000, guid: f92d407c6a5878947891c34bb9bcc9a8, type: 3}
+  _itemSprite: {fileID: 21300000, guid: f842896213446514784db165c2ca0562, type: 3}
   _rarity: {fileID: 11400000, guid: 981a863b90174994aa3016c043e63da3, type: 2}
