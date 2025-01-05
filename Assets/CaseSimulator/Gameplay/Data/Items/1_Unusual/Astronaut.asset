@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Astronaut
   m_EditorClassIdentifier: 
-  _itemName: Astronaut
+  _itemName: "\u0413\u0430\u0440\u0433\u0430\u043D\u0442\u044E\u0430 "
   _cost: 300
-  _itemSprite: {fileID: 21300000, guid: 315ad859e5513544fbe313918ed77c89, type: 3}
+  _itemSprite: {fileID: 21300000, guid: fc2e159b20a864d4da239fffb93748bc, type: 3}
   _rarity: {fileID: 11400000, guid: 7cc12af6eb07a124fb0545cbe3a3cb30, type: 2}

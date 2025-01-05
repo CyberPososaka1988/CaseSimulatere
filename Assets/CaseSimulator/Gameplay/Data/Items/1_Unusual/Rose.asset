@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Rose
   m_EditorClassIdentifier: 
-  _itemName: Rose
+  _itemName: "\u0410\u0440\u0431\u0443\u0437"
   _cost: 300
-  _itemSprite: {fileID: 21300000, guid: 473dc08113adeb54091f374470ca69aa, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 29692ce6ec5e28f4a93a2886a358ef56, type: 3}
   _rarity: {fileID: 11400000, guid: 7cc12af6eb07a124fb0545cbe3a3cb30, type: 2}

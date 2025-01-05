@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Judy
   m_EditorClassIdentifier: 
-  _itemName: Judy
+  _itemName: "\u0424\u0438\u0448\u043D\u044F"
   _cost: 250
-  _itemSprite: {fileID: 21300000, guid: 1eaf76873b84eec49960d3033228e361, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 3bdbdacc044ac634eac78ae1eebdfe8b, type: 3}
   _rarity: {fileID: 11400000, guid: 7cc12af6eb07a124fb0545cbe3a3cb30, type: 2}

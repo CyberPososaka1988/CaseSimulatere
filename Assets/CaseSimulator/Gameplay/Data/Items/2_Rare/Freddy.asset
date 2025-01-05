@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Freddy
   m_EditorClassIdentifier: 
-  _itemName: Freddy
+  _itemName: "\u041F\u0430\u0441\u0445\u0430\u043B\u044C\u043D\u044B\u0439 \u0417\u043E\u043C\u0431\u0438"
   _cost: 600
-  _itemSprite: {fileID: 21300000, guid: 0b837e4828626834ab1d39a2ff56a3b1, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 0471077f67ddd464fafa91c8b488fd2d, type: 3}
   _rarity: {fileID: 11400000, guid: dda440497de392546abc656a8f0ba427, type: 2}
