@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Steve
   m_EditorClassIdentifier: 
-  _itemName: Steve
+  _itemName: "\u041C\u0438\u043D\u0430"
   _cost: 50
-  _itemSprite: {fileID: 21300000, guid: d075d3b8b9398904b97fa8375544b029, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 71007674f52bb4d4789ef4cda8d99182, type: 3}
   _rarity: {fileID: 11400000, guid: b673882f6af81b14d9bb45be737600f3, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Ded
   m_EditorClassIdentifier: 
-  _itemName: Strange Grandpa
+  _itemName: "\u0413\u043E\u0440\u043E\u0445\u043E\u0441\u0442\u0440\u0435\u043B"
   _cost: 50
-  _itemSprite: {fileID: 21300000, guid: 2f9f9bb3df8e66b459f3a02c3517450d, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 34b0e1c0a73793044b0c60c5f35ebd02, type: 3}
   _rarity: {fileID: 11400000, guid: b673882f6af81b14d9bb45be737600f3, type: 2}

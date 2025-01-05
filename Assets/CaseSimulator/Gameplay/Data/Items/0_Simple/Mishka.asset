@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8138608e1ce6a4faf6bf8e064748b7, type: 3}
   m_Name: Mishka
   m_EditorClassIdentifier: 
-  _itemName: Polar Bear
+  _itemName: "\u041E\u0440\u0435\u0445"
   _cost: 100
-  _itemSprite: {fileID: 21300000, guid: 5032a1581b0b11d41b8c206ccc8a1228, type: 3}
+  _itemSprite: {fileID: 21300000, guid: 7d1bd1c21af943c46b6dd96ebb11c995, type: 3}
   _rarity: {fileID: 11400000, guid: b673882f6af81b14d9bb45be737600f3, type: 2}
