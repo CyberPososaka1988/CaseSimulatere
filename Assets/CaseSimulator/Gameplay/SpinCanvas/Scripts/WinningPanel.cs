@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace CaseSimulator.Gameplay.SpinSystem
 {
-    public class WinningPanel : MonoBehaviour
+    public class WinningPanel : Sounds
     {
         public static Action OnRewardClaimed;
 
@@ -39,6 +39,7 @@ namespace CaseSimulator.Gameplay.SpinSystem
         public void Sell()
         {
             Bank.AddMoney(_itemInfo.Cost);
+            PlaySound(sounds[0]);
             OnRewardClaimed?.Invoke();
         }
 

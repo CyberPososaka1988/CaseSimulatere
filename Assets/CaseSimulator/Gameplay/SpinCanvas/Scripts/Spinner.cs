@@ -28,14 +28,14 @@ namespace CaseSimulator.Gameplay.SpinSystem
         {
             Vector2 newPos = new Vector3(UnityEngine.Random.Range(-_spawnSpread, 0), _spinPanel.position.y);
             _spinPanel.anchoredPosition = newPos;
-            PlaySound(sounds[1]);
+      
             _spinButton.gameObject.SetActive(true);
             _backButton.gameObject.SetActive(true);
         }
 
         public void StartSpin() /// начать вращение
         {
-            PlaySound(sounds[0]);
+            PlaySound(sounds[1]);
             Bank.RemoveMoney(_spawner.Case.Cost);
             _isSpin = true;
             _spinSpeed = _spinMaxSpeed;
@@ -57,6 +57,7 @@ namespace CaseSimulator.Gameplay.SpinSystem
                 {
                     _isSpin = false;
                     _spinSpeed = 0;
+                    PlaySound(sounds[0], 0.90f, false, 0.97f, 1f);
                     _winArrow.OnWin();
                 }
             }

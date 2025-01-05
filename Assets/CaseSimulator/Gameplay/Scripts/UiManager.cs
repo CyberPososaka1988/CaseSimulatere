@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace CaseSimulator.Gameplay
 {
-    public class UiManager : MonoBehaviour
+    public class UiManager : Sounds
     {
         [SerializeField] private Canvas _ourGamesUI;
         [SerializeField] private Transform _gameUI;
@@ -36,6 +36,7 @@ namespace CaseSimulator.Gameplay
         {
             if (Time.timeScale == 1)
             {
+                PlaySound(sounds[2], 1f, false, 0.95f, 1f);
                 _clickerCanvas.gameObject.SetActive(true);
                 _mainCanvas.gameObject.SetActive(true);
                 _caseCanvas.gameObject.SetActive(false);
@@ -47,6 +48,7 @@ namespace CaseSimulator.Gameplay
         {
             if (Time.timeScale == 1)
             {
+                PlaySound(sounds[4], 1f, false, 0.95f, 1f);
                 _mainCanvas.gameObject.SetActive(true);
                 _clickerCanvas.gameObject.SetActive(false);
                 _caseCanvas.gameObject.SetActive(true);
@@ -59,6 +61,7 @@ namespace CaseSimulator.Gameplay
         {
             if (Time.timeScale == 1)
             {
+                PlaySound(sounds[3], 1f, false, 0.95f, 1f);
                 _mainCanvas.gameObject.SetActive(true);
                 _clickerCanvas.gameObject.SetActive(false);
                 _caseCanvas.gameObject.SetActive(false);
@@ -70,6 +73,7 @@ namespace CaseSimulator.Gameplay
         {
             if (Time.timeScale == 1)
             {
+                PlaySound(sounds[4]);
                 _caseCanvas.gameObject.SetActive(false);
                 _spinCanvas.gameObject.SetActive(true);
                 _mainCanvas.gameObject.SetActive(false);
@@ -83,6 +87,7 @@ namespace CaseSimulator.Gameplay
         {
             if (Time.timeScale == 1)
             {
+                PlaySound(sounds[1]);
                 _ourGamesUI.gameObject.SetActive(true);
                 _gameUI.gameObject.SetActive(false);
             }
@@ -92,6 +97,7 @@ namespace CaseSimulator.Gameplay
         {
             if (Time.timeScale == 1)
             {
+                PlaySound(sounds[0], 0.70f, false, 0.85f, 0.95f);
                 _ourGamesUI.gameObject.SetActive(false);
                 _gameUI.gameObject.SetActive(true);
             }

@@ -19,7 +19,7 @@ namespace CaseSimulator.Gameplay.ClickerSystem
         {
             _animator.SetBool(_animatorBoolName, true);
             Bank.AddMoney(_multiplier);
-            PlaySound(sounds[0]);
+            PlaySound(sounds[0], 0.80f, false, 0.97f, 1f);
         }
 
         public void StopClickAnim()
