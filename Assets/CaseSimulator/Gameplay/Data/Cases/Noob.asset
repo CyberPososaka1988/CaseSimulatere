@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af0a52d3dc6c4b4cafe026d953a9da5, type: 3}
   m_Name: Noob
   m_EditorClassIdentifier: 
-  _ruName: "\u041A\u0435\u0439\u0441 \u043D\u0443\u0431\u0430"
-  _enName: Noob's case
-  _cost: 0
+  _ruName: "\u0410\u0440\u0433\u0445"
+  _enName: Argh
+  _cost: 50
   _items:
   - {fileID: 11400000, guid: 097ddb49f520b6e44b5fbd5959260bfc, type: 2}
   - {fileID: 11400000, guid: 0f4f84c8b2c819344bb9e42e0b8ceb71, type: 2}

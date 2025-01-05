@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af0a52d3dc6c4b4cafe026d953a9da5, type: 3}
   m_Name: Diamond
   m_EditorClassIdentifier: 
-  _ruName: "\u0410\u043B\u043C\u0430\u0437\u043D\u044B\u0439"
+  _ruName: "\u0417\u043E\u043C\u0431\u0438 \u0441 \u0441\u044E\u0440\u043F\u0440\u0438\u0437\u043E\u043C"
   _enName: Diamond
-  _cost: 900
+  _cost: 1900
   _items:
   - {fileID: 11400000, guid: 6c6ebd69d55704348b830c9c04cb6624, type: 2}
   - {fileID: 11400000, guid: 356b2637514cb6a4e9e724fcf1c8ef01, type: 2}

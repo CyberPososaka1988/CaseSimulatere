@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af0a52d3dc6c4b4cafe026d953a9da5, type: 3}
   m_Name: Netherite
   m_EditorClassIdentifier: 
-  _ruName: "\u041D\u0435\u0437\u0435\u0440\u0438\u0442\u043E\u0432\u044B\u0439"
-  _enName: Netherite
-  _cost: 1800
+  _ruName: "\u0412\u044B \u0443\u0432\u0435\u0440\u0435\u043D\u044B?"
+  _enName: Are you sure?
+  _cost: 3000
   _items:
   - {fileID: 11400000, guid: 6c6ebd69d55704348b830c9c04cb6624, type: 2}
   - {fileID: 11400000, guid: 356b2637514cb6a4e9e724fcf1c8ef01, type: 2}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af0a52d3dc6c4b4cafe026d953a9da5, type: 3}
   m_Name: Classic
   m_EditorClassIdentifier: 
-  _ruName: "\u041A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0439\u0441\u043A\u0438\u0439"
-  _enName: Classic
-  _cost: 75
+  _ruName: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0417\u043E\u043C\u0431\u0438"
+  _enName: An Ordinary Zombie
+  _cost: 175
   _items:
   - {fileID: 11400000, guid: c5d16d0df5298734aa9a3c0383b1e4c6, type: 2}
   - {fileID: 11400000, guid: c77ce08b456da914fa9a6d7a99a1ebb9, type: 2}
